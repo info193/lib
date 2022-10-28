@@ -1,0 +1,24 @@
+{
+  "name":"info193/lumenFrame",
+  "description":"Resource Storage SDK for lumen",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "keywords":["ghupeng","lumenFrame"],
+  "authors":[
+    {
+      "name":"huguopeng",
+      "email":"info193@163.com"
+    }
+  ],
+  "require" :{
+    "php":">=7.4.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "lumenFrame\\Library\\":"src/Library",
+      "lumenFrame\\Base\\":"src/Base"
+    }
+  }
+
+}
